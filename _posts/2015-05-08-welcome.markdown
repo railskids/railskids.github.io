@@ -1,0 +1,15 @@
+
+---
+layout: default
+title: Rails Kids
+---
+
+
+## Welcome
+
+Sorcha and I came up with idea one Friday thinking how there must be something between Scratch and fully blown Rails tutorials.  With Sorcha being involved with RailsGirls, and both of them being CoderDojo mentors,
+they came to an idea that perhaps RailsKids might be .. a thing.  A quick whois search later and railskids.org was registered and away they went!
+
+## Purpose
+Scratch is great for younger kids who potentially can’t even read yet, but it is very quick to grow out of.
+RailsKids is for the next level, introducing children aged 10 and up (pulling an age out of thin air) to a grown up language at a time in their life when they’re discovering who they are outside of just their parents.

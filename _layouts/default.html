@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>{{ page.title }} - Rails Kids</title>
+    <link href="/css/main.css" rel="stylesheet" />
+    <link href="/css/style.css" rel="stylesheet" />
+    <link href="/css/bootstrap.css" rel="stylesheet" />
+    <link href="/css/bootstrap-responsive.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<header>
+    <div class="container">
+        <a class="span2" href="/" id="logo">
+            <img alt="Rails Girls Brisbane" src="/images/railskidstheone.png"/>
+        </a>
+        <nav id="navigation" class="site-navigation" role="navigation">
+            {% include nav.html %}
+        </nav>
+    </div>
+</header>
+<article class="container">
+    <div class="span10">
+        {{ content }}
+    </div>
+</article>
+<footer>
+    <div class="hero">
+        <h3>Rails Kids Welcome</h3>
+        <h7>by Sorcha Abel @sabel25 and Darren Oliver @olilogic</h7>
+    </div>
+    <a href="https://twitter.com/hellorails" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false">Follow @hellorails</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</footer>
+</body>
+</html>
