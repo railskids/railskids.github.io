@@ -19,7 +19,7 @@ This code is a little game between you and the computer. The computer will pick 
 
 ## Nitrous
 We will start by signing into Nitrous and creating a new workspace. Most of these steps are explained in the Nitrous Setup Guide [Nitrous Setup](/nitrous-guide) 
-but as we know this is all still new to you below so here are some tips to get your started. 
+but as we know this is all still new to you below are some tips to get your started. 
 
 Click on the + icon as shown below
 
@@ -134,7 +134,7 @@ is to generate a random number and the bit inside the parentheses is called an a
 to generate a random number between 1 and 10
 
 #### Step 5 - If statements
-If statements are called controlled structrues in ruby (and most other programming languages). Here we are simply saying this; if the number you entered via the
+If statements are called conditional statements in ruby (and most other programming languages). Here we are simply saying this; if the number you entered via the
 terminal window is the same as the random number that the conputer generated then you win, yay. We then use the `return` keyword to exit out of the loop because you 
 have just won! 
  
