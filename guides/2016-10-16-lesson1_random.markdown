@@ -159,7 +159,7 @@ but really it would be the exact same if we did it like this
 Finally when your 3 chances are up the until loop ends and we use `puts` again to let you know that the game is over. 
 
 ## The End
-That's it. We understand that we have introduced lots of new concepts so we have an explaination / cheat sheet [Cheat Sheet](/explainations-guide) that you
+That's it. We understand that we have introduced lots of new concepts so we have a [Cheat Sheet](/explainations-guide) that you
 can refer to regardless of the lesson you are on. Oh you can also ask one of the instructors to explain any of it, we love questions
 
 See you in lesson 2
