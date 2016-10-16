@@ -1,0 +1,108 @@
+---
+layout: default
+title: Rails Kids Cloud9 Setup Guide
+permalink: nitrous-guide
+---
+
+# Rails Kids Cloud9 Setup Guide
+
+*Created by Sorcha Abel & Darren Oliver  <a href="https://twitter.com/hellorails" class="twitter-follow-button" data-show-count="false">Follow @hellorails</a>
+                                         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+# Welcome!!
+
+Hi and welcome to our first Rails Kids setup guide. This guide will help you get set up with Nitrous which a development environment in the cloud. Initially we
+will be doing our coding in this environment. We will be here to guide you though all the steps necessary to get you up and running. There are a few
+things you need to do so lets get started.
+
+1. Go to the [nitrous website](https://www.nitrous.io/).
+
+2. Sign up for a Nitrous account. There are a few steps to this but hey we are here so shout out if you need a hand. 
+Also don't worry if your screen looks a little different, it will be pretty much the same and the steps below will help :)
+
+# Setup Pages
+
+Click the __Signup__ button.
+
+<img src="/images/signup.jpg" width="70%">
+
+You will be asked to enter a few details (ps you need an email address)
+
+<img src="/images/signup_details.png" width="600">
+
+Yay you are now ready to create a project!
+
+## Workspace Setup
+
+Click on the + icon as shown below
+
+<img src="/images/plus_icon.png" width="600">
+
+The `New Project` page will appear
+
+Lets name your new project _Rails Kids_, and make sure you are creating a __Ruby__ workspace. Then click `Create Project`.
+
+<img src="/images/new_projects_new.png" width="70%">
+
+Nitrous will start to create your new Rails Kids workspace. This is exciting but give it a few mins, its doing plenty behind the scenes :)
+
+Nitrous will show you this page while it's creating the new workspace
+
+<img src="/images/creating_project.png" width="70%">
+
+When its done you'll see this
+
+<img src="/images/project_ready.png" width="70%">
+
+
+## Workspace environment
+
+<img src="/images/container.png" width="70%">
+
+The workspace is made up of a few important areas.
+
+- The file explorer and editor are where we will be spending a lot of time. Choose files to edit using the explorer. They will open in a new tab in the file editor.
+- The editor window is where you will write your ruby code.
+- The Terminal is used to enter commands to our application.
+
+
+## Hello World 
+
+From the file explorer window create a new file, right click on the code folder and select new file
+
+<img src="/images/explorer.png" width="30%">
+
+In the new file type in the following
+
+`hello 'your name'`
+
+Save the file (by using File -> Save on the menu bar)
+
+In the terminal window type in the following commands
+
+{% highlight sh %}
+cd code
+irb -I .
+require 'hello'
+{% endhighlight %}
+
+You should see the terminal window print out what you put in the file! It should look something like this. If you're
+stuck just raise your hand. That's what we are here for :)
+
+<img src="/images/irb_output.png" width="30%">
+
+We know that wasn't very exciting but you've just 
+many things
+
+1. You have sucessfully created a nitrous project
+**And**
+2. You can sucessfully run some ruby code
+
+That's pretty awesome!
+
+
+# Next Steps
+You are up and running with your ruby enviroment. We have a few guides to introduce you to ruby code. They lack the WOW factor
+but they are good practise. Once completed we will move onto Rails..and that's much more fun :)
+
+
